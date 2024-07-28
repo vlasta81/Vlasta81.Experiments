@@ -5,7 +5,7 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bin2Dec", "Bin2Dec\Bin2Dec.csproj", "{FEC32AF1-FD65-46FD-AE1F-8D1DFFAAC52A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pathman", "Pathman\Pathman.csproj", "{7025F3B3-1651-4305-9582-927F73EA9A9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pathman", "Pathman\Pathman.csproj", "{7025F3B3-1651-4305-9582-927F73EA9A9D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
