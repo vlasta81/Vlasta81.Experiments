@@ -1,10 +1,6 @@
-﻿using System;
-using System.CommandLine;
+﻿using System.CommandLine;
 using System.CommandLine.Builder;
-using System.CommandLine.NamingConventionBinder;
 using System.CommandLine.Parsing;
-using System.IO;
-using System.Linq;
 using System.Security.Principal;
 
 namespace Pathman
