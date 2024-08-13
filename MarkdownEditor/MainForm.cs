@@ -76,7 +76,7 @@ namespace MarkdownEditor
                 {
                     try
                     {
-                        string filePath = saveFileDialog.FileName;
+                        string filePath = saveFileDialog.FileName.Trim();
                         File.WriteAllText(filePath, richTextBox.Text);
                         MessageBox.Show("File saved successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         ChangeWindowText(filePath);
@@ -100,7 +100,7 @@ namespace MarkdownEditor
                 {
                     try
                     {
-                        string filePath = openFileDialog.FileName;
+                        string filePath = openFileDialog.FileName.Trim();
                         richTextBox.Text = File.ReadAllText(filePath);
                         ChangeWindowText(filePath);
                     }
@@ -125,7 +125,7 @@ namespace MarkdownEditor
                 {
                     try
                     {
-                        string filePath = saveFileDialog.FileName;
+                        string filePath = saveFileDialog.FileName.Trim();
                         File.WriteAllText(filePath, Markdown.ToHtml(richTextBox.Text));
                         MessageBox.Show("Export successful.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }

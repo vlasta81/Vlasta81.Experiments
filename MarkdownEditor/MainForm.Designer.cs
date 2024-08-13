@@ -176,11 +176,11 @@ namespace MarkdownEditor
         private RichTextBox richTextBox;
         private WebView2 webView;
 
-        private string? curentFile = null;
+        private string curentFile = null;
         private string curentFileName = "New Document";
         private string defaultFileExtension = "md";
 
-        private void ChangeWindowText(string? filePath)
+        private void ChangeWindowText(string filePath)
         {
             if (filePath == null)
             {
