@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pathman", "Pathman\Pathman.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarkdownEditor", "MarkdownEditor\MarkdownEditor.csproj", "{880910EF-AD3A-4283-983D-80E5A882DDEE}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimalMediator", "MinimalMediator\MinimalMediator.csproj", "{8ADA07C8-6EA0-4D9A-BED7-64259D410EBA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{880910EF-AD3A-4283-983D-80E5A882DDEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{880910EF-AD3A-4283-983D-80E5A882DDEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{880910EF-AD3A-4283-983D-80E5A882DDEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ADA07C8-6EA0-4D9A-BED7-64259D410EBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ADA07C8-6EA0-4D9A-BED7-64259D410EBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ADA07C8-6EA0-4D9A-BED7-64259D410EBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ADA07C8-6EA0-4D9A-BED7-64259D410EBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
