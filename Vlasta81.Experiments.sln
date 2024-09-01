@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarkdownEditor", "MarkdownE
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimalMediator", "MinimalMediator\MinimalMediator.csproj", "{8ADA07C8-6EA0-4D9A-BED7-64259D410EBA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigurationStorage", "ConfigurationStorage\ConfigurationStorage.csproj", "{8A25F500-AE4F-47B7-A895-2D44FF5C0D8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{8ADA07C8-6EA0-4D9A-BED7-64259D410EBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8ADA07C8-6EA0-4D9A-BED7-64259D410EBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8ADA07C8-6EA0-4D9A-BED7-64259D410EBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A25F500-AE4F-47B7-A895-2D44FF5C0D8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A25F500-AE4F-47B7-A895-2D44FF5C0D8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A25F500-AE4F-47B7-A895-2D44FF5C0D8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A25F500-AE4F-47B7-A895-2D44FF5C0D8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
